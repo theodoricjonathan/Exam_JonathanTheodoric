@@ -1,3 +1,5 @@
+package demo.steps;
+
 import demo.pages.HomePageWikipedia;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -31,7 +33,7 @@ public class PokemonCheckStepDefinision {
 
     @When("User click the first search result")
     public void userClickTheFirstSearchResult() {
-
+        homePage.clickSearchResult();
     }
 
     @Then("User see page about {string}")

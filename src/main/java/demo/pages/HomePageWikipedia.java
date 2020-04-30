@@ -34,7 +34,7 @@ public class HomePageWikipedia {
     }
 
     public void clickSearchResult() {
-        WebElement buttonSearchResult = WebDriverInstance.driver.findElement((By.xpath("//button[@type='submit']")));
+        WebElement buttonSearchResult = WebDriverInstance.driver.findElement((By.xpath("//h3[contains(text(),'Pikachu)")));
         buttonSearchResult.click();
     }
 
